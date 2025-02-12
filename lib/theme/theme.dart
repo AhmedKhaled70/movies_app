@@ -48,7 +48,7 @@ class MyTheme {
             fontWeight: FontWeight.bold,
             fontSize: 22
         ),
-        displaySmall: TextStyle(
+          displaySmall: TextStyle(
             color: MyTheme.white,
             fontSize: 18
         ),

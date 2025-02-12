@@ -6,6 +6,12 @@ class home_tab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: MyTheme.gold,);
+    return Scaffold(
+      body: Column(
+        children: [
+          Center(child: Image.asset("assets/images/Available Now.png")),
+        ],
+      ),
+    );
   }
 }

@@ -11,14 +11,13 @@ class homescreen extends StatefulWidget {
   @override
   State<homescreen> createState() => _homescreenState();
 }
-
 class _homescreenState extends State<homescreen> {
   int selectedIndex = 0;
   List<Widget> tabs = [
     home_tab(),
     search_tab(),
-    profile_tab(),
-    explore_tab()
+    explore_tab(),
+    profile_tab()
   ];
   @override
   Widget build(BuildContext context) {
