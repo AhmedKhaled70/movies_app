@@ -117,7 +117,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
       child: Text("Back", style: TextStyle(color: Colors.white,fontSize: 15)),
     ),
-
+SizedBox(height: 20,)
 
     ],
     ),

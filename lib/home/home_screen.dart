@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mov/home/tabs/explore%20tab.dart';
 import 'package:mov/home/tabs/home%20tab.dart';
-import 'package:mov/home/tabs/profile%20tab.dart';
+import 'package:mov/home/tabs/profile%20tab/profile%20tab.dart';
 import 'package:mov/home/tabs/search%20tab.dart';
 import 'package:mov/theme/theme.dart';
 class homescreen extends StatefulWidget {
