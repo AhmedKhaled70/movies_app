@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mov/home/tabs/profile%20tab/update%20profile.dart';
+import 'package:mov/login/login_screen.dart';
 import 'package:mov/theme/theme.dart';
 
 class profile_tab extends StatelessWidget {
@@ -21,7 +23,7 @@ class profile_tab extends StatelessWidget {
                       CircleAvatar( radius: 50,
                         child: Image.asset("assets/images/avatar1.png",),),
                       SizedBox(height: 15,),
-                      Text("John Safwat",style:TextTheme.of(context).displaySmall,)
+                      Text("Ahmed khaled ",style:TextTheme.of(context).displaySmall,)
                     ],
                   ),
                   Column(
@@ -41,8 +43,12 @@ class profile_tab extends StatelessWidget {
               Row(
                 children: [
                   Expanded(flex: 2,
-                    child: ElevatedButton(
+                    child:
+                    ElevatedButton(
                       onPressed: () {
+                        Navigator.pushNamed(context, update_profile.routeName);
+
+
                       },
                       style: ElevatedButton.styleFrom(
                           padding: EdgeInsets.symmetric(vertical: 12),
@@ -62,6 +68,7 @@ class profile_tab extends StatelessWidget {
                   Expanded(flex: 1,
                     child: ElevatedButton(
                       onPressed: () {
+                        Navigator.pushNamed(context, loginscreen.routeName);
                       },
                       style: ElevatedButton.styleFrom(
                           padding: EdgeInsets.symmetric(vertical: 12),
