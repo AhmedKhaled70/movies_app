@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:mov/home/home_screen.dart';
 import 'package:mov/login/login_screen.dart';
 import 'package:mov/theme/theme.dart';
 

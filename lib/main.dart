@@ -5,7 +5,6 @@ import 'package:mov/home/home_screen.dart';
 import 'package:mov/login/login_screen.dart';
 import 'package:mov/onboarding_screen.dart';
 import 'package:mov/theme/theme.dart';
-
 import 'home/tabs/profile tab/update profile.dart';
 import 'rsgister/register_screen.dart';
 import 'splash screen/splash_screen.dart';
@@ -30,8 +29,7 @@ class myapp extends StatelessWidget {
         loginscreen.routeName: (context) => loginscreen(),
         RegisterScreen.routeName: (context) => RegisterScreen(),
         update_profile.routeName: (context) => update_profile(),
-        forgetPassword.routeName:(context)=>forgetPassword(),
-
+        forgetPassword.routeName: (context) => forgetPassword(),
       },
       home: AnimatedSplashScreen(
         splash: SplashScreen(),
